@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f2;
+    color: #26352b;
+}
+
+
+/* Navigation */
+
+header {
+    background-color: #183c2a;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Homepage */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #dcebdc;
+    padding: 70px 50px;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.hero-content {
+    width: 45%;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.small-title {
+    font-size: 14px !important;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #286044;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #183c2a;
+}
+
+
+/* Introduction */
+
+.intro {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.intro h2 {
+    font-size: 32px;
+}
+
+.intro p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.section-label {
+    color: #286044;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+/* Homepage photos */
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.photos img {
+    width: 42%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/* Topic cards */
+
+.topics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.topic-card {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+.topic-card h3 {
+    color: #286044;
+}
+
+.topic-card p {
+    line-height: 1.5;
+}
+
+.topic-card a {
+    color: #286044;
+    text-decoration: none;
+}
+
+.topic-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* Causes page */
+
+.page-title {
+    text-align: center;
+    background-color: #dcebdc;
+    padding: 60px 20px;
+}
+
+.page-title h1 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.page-title p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+/* Cause sections */
+
+.cause-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.cause-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.cause-image {
+    width: 35%;
+}
+
+.cause-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.cause-text {
+    width: 50%;
+}
+
+.cause-text h2 {
+    color: #286044;
+    font-size: 28px;
+}
+
+.cause-text p {
+    line-height: 1.7;
+}
+
+
+/* Other causes */
+
+.content-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #286044;
+}
+
+.content-section p {
+    line-height: 1.7;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #183c2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
